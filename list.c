@@ -54,6 +54,7 @@ Node *remove_start(Node *head){
     free(aux);
     return head;
 }
+
 Node *remove_end(Node *head){
     Node *aux = head;
     if (head == NULL){
@@ -70,6 +71,7 @@ Node *remove_end(Node *head){
     
     return head;
 }
+
 Node *remove_node(Node *head, int pos){
     Node *aux = head, *prev;
     int i = 1;
